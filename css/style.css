@@ -1,133 +1,170 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'inter', sans-serif;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
-    background-color: #1E0038;
-    justify-content: space-between;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: white;
+    flex-wrap: nowrap;
+    gap: 16px;
 }
 
-header h1 {
-    font-size: 18px;
-    padding-top: 10px;
-}
 
-#titulo_header {
+#introducao {
     display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#introducao img {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #291ec7;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#img-introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+#introducao h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#botoes-introducao {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+#botao-carros {
+    border: none;
+    background-color: #291ec7;
+}
+
+#botao-curiosidades {
+    border: none;
+    background-color: #dc9d33;
+}
+
+#destaques {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#por-que-sao-especiais {
+    margin-bottom: 20px;
+}
+
+#por-que-sao-especiais small {
+    color: #3360dc96;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
     gap: 20px;
 }
 
-#titulo_header p {
-    background-color: rgb(17, 171, 0);
-    color: #1E0038;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 100px
-}
-
-#main1 {
-    background-color: #462f73;
-    padding: 100px;
-    display: flex;
-    justify-content:space-between;
-}
-
-#main1 h2 {
-    font-size: 60px;
-}
-#main1 img {
-    width: 600px;
-    border-radius: 20px;
-}
-
-#opcoes_main {
-    margin-top: 25px;
-    border-radius: 100px;
-}
-
-#main2 {
-    padding: 100px;
-    background-color: #c7c6c6;
-}
-
-#main2_titulo h2{
-    color: #1E0038;
-}
-
-#main2_titulo p{
-    color: #31005C;
-}
-
-#quadrados {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px
-}
-
-#quadrados article {
+.card {
     background-color: white;
-    padding: 30px;
-    margin: 10px;
+    width: 50%;
+    padding: 20px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
-.botao_verde {
-    text-decoration: none;
-    background-color:rgb(17, 171, 0);
-    padding: 12px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 15px;
-    color: #462f73;
+.card h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
-.botao_claro {
-    text-decoration: none;
-    background-color: #5F00B3;
-    padding: 12px;
-    color: white;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 15px;
+#destaques2 {
+    background-color: silver;
+    padding: 30px;
+    text-align: center;
 }
 
-.verde {
-    color: rgb(17, 171, 0);
+#destaques2 a {
+    border: none;
+    background-color: #291ec7;
 }
 
-#main3 {
-    background-color: #49008A;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
+#destaques2 h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#main3 h2 {
-    color: white;
-    margin-bottom: 10px;
-    margin-top: 10px
-}
-
-#main3 p {
-    letter-spacing: 2px;
+small {
+    color: #291ec7;
+    text-transform: uppercase;
 }
 
 footer {
-    background-color: #1E0038;
+    padding: 30px;
+    background-color: black;
     display: flex;
     justify-content: space-between;
-    padding: 25px;
-    color: white
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+#menu-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
 }
