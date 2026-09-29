@@ -29,12 +29,21 @@ header {
 #menu {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     gap: 16px;
 }
 
+#destaque{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+
+}
 
 #introducao {
     display: flex;
@@ -54,7 +63,7 @@ header {
 a {
     text-decoration: none;
     color: white;
-    border: 1px solid #291ec7;
+    background-color: #291ec7 ;
     padding: 5px;
     border-radius: 5px;
     font-weight: bold;

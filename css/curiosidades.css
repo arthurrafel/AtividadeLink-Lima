@@ -28,7 +28,7 @@ header h1 {
 }
 
 #titulo_header p {
-    background-color: rgb(0, 103, 171);
+    background-color:#291ec7;
     color: #001638;
     font-size: 20px;
     padding: 10px;
@@ -60,13 +60,20 @@ header h1 {
 }
 
 #curiosidades img {
-    width: 600px;
+    width: 10%;
+    height: 350px;
     border-radius: 20px;
 }
 
 #section_imagem p {
     color: #01010193;
     text-align: center;
+}
+
+#section_imagem img {
+    width: 350px;
+    max-width: 100%;
+    border-radius: 20px;
 }
 
 #curiosidades_titulo h2 {
@@ -78,15 +85,15 @@ header h1 {
 }
 
 
-.curiosidade { 
-    background-color: black; 
+.curiosidade {
+    background-color: black;
     color: white;
-    border-radius: 10px; 
-    padding: 10px; 
-    display: flex; 
-    flex-direction: row; 
-    margin: 20px; 
-    gap: 20px; 
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 20px;
 }
 
 .curiosidade h4 {
@@ -102,7 +109,7 @@ header h1 {
 a {
     text-decoration: none;
     color: white;
-    border: 1px solid blue;
+    background-color: #291ec7 ;
     padding: 5px;
     border-radius: 5px;
     font-weight: bold;
@@ -119,7 +126,6 @@ footer {
 .botao_verde {
     text-decoration: none;
     padding: 12px;
-
     border-radius: 10px;
     font-weight: bold;
     font-size: 15px;
