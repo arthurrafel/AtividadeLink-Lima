@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:black;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+header h1 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#titulo_header {
+    display: flex;
+    gap: 20px;
+}
+
+#titulo_header p {
+    background-color: rgb(0, 103, 171);
+    color: #001638;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100px
+}
+
+#descricao_curiosidades {
+    background-color:whitesmoke;
+    padding: 60px
+}
+
+#descricao_curiosidades h2 {
+    font-size: 50px;
+}
+
+#tela_curiosidades {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 25px;
+    background-color: white;
+}
+
+#tela_curiosidades_margem {
+    background-color: #c7c6c6;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#curiosidades img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+#section_imagem p {
+    color: #01010193;
+    text-align: center;
+}
+
+#curiosidades_titulo h2 {
+    color: #002638;
+}
+
+#curiosidades_titulo p {
+    color: #2f3b73d0;
+}
+
+
+.curiosidade { 
+    background-color: black; 
+    color: white;
+    border-radius: 10px; 
+    padding: 10px; 
+    display: flex; 
+    flex-direction: row; 
+    margin: 20px; 
+    gap: 20px; 
+}
+
+.curiosidade h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#opcoes_header {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #001638;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: white
+}
+
+.botao_verde {
+    text-decoration: none;
+    padding: 12px;
+
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color:aliceblue
+}
+
+.botao_ {
+    text-decoration: none;
+    background-color: #3000b3;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.azul {
+    color: rgb(3, 0, 171);
+}

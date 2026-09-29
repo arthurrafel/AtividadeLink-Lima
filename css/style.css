@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+
+#introducao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: silver;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#introducao img {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #291ec7;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#img-introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+#introducao h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#botoes-introducao {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+#botao-carros {
+    border: none;
+    background-color: #291ec7;
+}
+
+#botao-curiosidades {
+    border: none;
+    background-color: #dc9d33;
+}
+
+#destaques {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#por-que-sao-especiais {
+    margin-bottom: 20px;
+}
+
+#por-que-sao-especiais small {
+    color: #3360dc96;
+}
+
+#img-galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#img-galeria img {
+    width: 32%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 31%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#destaques2 {
+    background-color: silver;
+    padding: 30px;
+    text-align: center;
+}
+
+#destaques2 a {
+    border: none;
+    background-color: #291ec7;
+}
+
+#destaques2 h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+small {
+    color: #291ec7;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #001638;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: white
+}
+
+footer p {
+    color: white;
+}
+
+#menu-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
